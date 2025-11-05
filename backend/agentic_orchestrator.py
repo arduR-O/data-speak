@@ -293,10 +293,6 @@ class AgentState(TypedDict):
 # AGENT NODES
 # ============================================================================
 
-# ============================================================================
-# AGENT NODES
-# ============================================================================
-
 def create_agent_node(tools: list):
     """
     Create the agent node - This version uses the ChatGroq model's
